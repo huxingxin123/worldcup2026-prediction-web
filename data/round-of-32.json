@@ -1,0 +1,614 @@
+{
+  "createdAt": "2026-06-29T14:45:00+08:00",
+  "scope": "2026 FIFA World Cup remaining Round of 32 matches after Canada 1-0 South Africa",
+  "basedOn": {
+    "skill": "worldcup2026-prediction-skill / 绿茵神算 methodology",
+    "liveContextFile": "worldcup2026_live_context.json",
+    "liveContextGeneratedAt": "2026-06-29T14:28:36+08:00",
+    "methodWeights": {
+      "recentForm": 40,
+      "teamStrength": 30,
+      "headToHead": 15,
+      "situationalFactors": 15
+    }
+  },
+  "notes": [
+    "Outcome direction is the primary prediction target.",
+    "predictedScore is for 90 minutes and should be treated as reference only.",
+    "advancePick is included because knockout matches can be level after 90 minutes.",
+    "Direction is prioritized over exact score."
+  ],
+  "predictions": [
+    {
+      "dateET": "2026-06-29",
+      "timeET": "13:00",
+      "timeAsiaShanghai": "2026-06-30 01:00",
+      "venue": "Houston Stadium",
+      "teamA": {
+        "name": "巴西",
+        "winProb": 49
+      },
+      "draw": 25,
+      "teamB": {
+        "name": "日本",
+        "winProb": 26
+      },
+      "predictedScore": "2-1",
+      "scoreScope": "90分钟",
+      "directionPick": "巴西胜",
+      "advancePick": "巴西",
+      "confidence": "中",
+      "keyFactors": [
+        "巴西火力更足",
+        "日本组织稳定",
+        "内马尔可替补",
+        "淘汰赛经验差"
+      ],
+      "analysis": "巴西近期攻防更完整，日本能制造麻烦，但巴西个人爆点和淘汰赛经验更占优。",
+      "playersToWatch": [
+        {
+          "team": "巴西",
+          "player": "维尼修斯",
+          "reason": "左路单点突破决定上限"
+        },
+        {
+          "team": "日本",
+          "player": "久保建英",
+          "reason": "反击与肋部创造核心"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-06-29",
+      "timeET": "16:30",
+      "timeAsiaShanghai": "2026-06-30 04:30",
+      "venue": "Boston Stadium",
+      "teamA": {
+        "name": "德国",
+        "winProb": 58
+      },
+      "draw": 24,
+      "teamB": {
+        "name": "巴拉圭",
+        "winProb": 18
+      },
+      "predictedScore": "2-0",
+      "scoreScope": "90分钟",
+      "directionPick": "德国胜",
+      "advancePick": "德国",
+      "confidence": "中",
+      "keyFactors": [
+        "德国进球火力",
+        "巴拉圭偏守",
+        "德国防线波动",
+        "硬实力差距"
+      ],
+      "analysis": "德国小组赛有波动，但创造力和阵容厚度明显更强；巴拉圭若先丢球会很难追。",
+      "playersToWatch": [
+        {
+          "team": "德国",
+          "player": "维尔茨",
+          "reason": "串联和最后一传关键"
+        },
+        {
+          "team": "巴拉圭",
+          "player": "阿尔米隆",
+          "reason": "反击推进最有威胁"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-06-29",
+      "timeET": "21:00",
+      "timeAsiaShanghai": "2026-06-30 09:00",
+      "venue": "Monterrey Stadium",
+      "teamA": {
+        "name": "荷兰",
+        "winProb": 42
+      },
+      "draw": 29,
+      "teamB": {
+        "name": "摩洛哥",
+        "winProb": 29
+      },
+      "predictedScore": "2-1",
+      "scoreScope": "90分钟",
+      "directionPick": "荷兰胜",
+      "advancePick": "荷兰",
+      "confidence": "低",
+      "keyFactors": [
+        "双方状态都热",
+        "荷兰进攻更顺",
+        "摩洛哥反击危险",
+        "胜负差距很小"
+      ],
+      "analysis": "这是剩余 1/16 决赛里最接近的一场之一，荷兰进攻节奏略好，但摩洛哥完全有能力拖住比赛。",
+      "playersToWatch": [
+        {
+          "team": "荷兰",
+          "player": "布罗贝伊",
+          "reason": "禁区终结点状态好"
+        },
+        {
+          "team": "摩洛哥",
+          "player": "伊斯梅尔·赛巴里",
+          "reason": "前场衔接和得分都活跃"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-06-30",
+      "timeET": "13:00",
+      "timeAsiaShanghai": "2026-07-01 01:00",
+      "venue": "Dallas Stadium",
+      "teamA": {
+        "name": "科特迪瓦",
+        "winProb": 31
+      },
+      "draw": 25,
+      "teamB": {
+        "name": "挪威",
+        "winProb": 44
+      },
+      "predictedScore": "1-2",
+      "scoreScope": "90分钟",
+      "directionPick": "挪威胜",
+      "advancePick": "挪威",
+      "confidence": "中",
+      "keyFactors": [
+        "哈兰德牵制强",
+        "挪威防线开放",
+        "科特迪瓦对抗强",
+        "大赛经验隐忧"
+      ],
+      "analysis": "挪威进攻端更有决定性，但防线并不稳；科特迪瓦身体对抗足，比分可能咬得很紧。",
+      "playersToWatch": [
+        {
+          "team": "科特迪瓦",
+          "player": "凯西",
+          "reason": "中场对抗和二点球关键"
+        },
+        {
+          "team": "挪威",
+          "player": "哈兰德",
+          "reason": "禁区效率改变比赛"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-06-30",
+      "timeET": "17:00",
+      "timeAsiaShanghai": "2026-07-01 05:00",
+      "venue": "New York/New Jersey Stadium",
+      "teamA": {
+        "name": "法国",
+        "winProb": 66
+      },
+      "draw": 19,
+      "teamB": {
+        "name": "瑞典",
+        "winProb": 15
+      },
+      "predictedScore": "3-1",
+      "scoreScope": "90分钟",
+      "directionPick": "法国胜",
+      "advancePick": "法国",
+      "confidence": "高",
+      "keyFactors": [
+        "法国状态最热",
+        "瑞典防线失球多",
+        "姆巴佩爆点强",
+        "阵容厚度差距"
+      ],
+      "analysis": "法国小组赛攻防两端都很强，瑞典锋线有冲击力，但整体防守难长时间限制法国。",
+      "playersToWatch": [
+        {
+          "team": "法国",
+          "player": "姆巴佩",
+          "reason": "速度和终结都是核心威胁"
+        },
+        {
+          "team": "瑞典",
+          "player": "伊萨克",
+          "reason": "反击中最有质量的一点"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-06-30",
+      "timeET": "21:00",
+      "timeAsiaShanghai": "2026-07-01 09:00",
+      "venue": "Mexico City Stadium",
+      "teamA": {
+        "name": "墨西哥",
+        "winProb": 43
+      },
+      "draw": 30,
+      "teamB": {
+        "name": "厄瓜多尔",
+        "winProb": 27
+      },
+      "predictedScore": "1-0",
+      "scoreScope": "90分钟",
+      "directionPick": "墨西哥胜",
+      "advancePick": "墨西哥",
+      "confidence": "中",
+      "keyFactors": [
+        "墨西哥零失球",
+        "主场环境加成",
+        "厄瓜多尔刚胜德国",
+        "节奏或偏谨慎"
+      ],
+      "analysis": "厄瓜多尔韧性很强，刚击败德国会提升信心；墨西哥防守和主场环境让我更偏向小胜。",
+      "playersToWatch": [
+        {
+          "team": "墨西哥",
+          "player": "圣地亚哥·希门尼斯",
+          "reason": "禁区支点和终结关键"
+        },
+        {
+          "team": "厄瓜多尔",
+          "player": "凯塞多",
+          "reason": "中场拦截决定反击质量"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-07-01",
+      "timeET": "12:00",
+      "timeAsiaShanghai": "2026-07-02 00:00",
+      "venue": "Atlanta Stadium",
+      "teamA": {
+        "name": "英格兰",
+        "winProb": 60
+      },
+      "draw": 23,
+      "teamB": {
+        "name": "刚果金",
+        "winProb": 17
+      },
+      "predictedScore": "2-0",
+      "scoreScope": "90分钟",
+      "directionPick": "英格兰胜",
+      "advancePick": "英格兰",
+      "confidence": "中",
+      "keyFactors": [
+        "英格兰硬实力",
+        "上半场节奏慢",
+        "刚果金冲击力",
+        "淘汰赛经验差"
+      ],
+      "analysis": "英格兰状态谈不上丝滑，但硬实力和控制力仍高一档；刚果金需要靠转换速度制造意外。",
+      "playersToWatch": [
+        {
+          "team": "英格兰",
+          "player": "贝林厄姆",
+          "reason": "后插上和关键球能力突出"
+        },
+        {
+          "team": "刚果金",
+          "player": "维萨",
+          "reason": "冲刺和终结是主要出口"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-07-01",
+      "timeET": "16:00",
+      "timeAsiaShanghai": "2026-07-02 04:00",
+      "venue": "Seattle Stadium",
+      "teamA": {
+        "name": "比利时",
+        "winProb": 44
+      },
+      "draw": 27,
+      "teamB": {
+        "name": "塞内加尔",
+        "winProb": 29
+      },
+      "predictedScore": "2-1",
+      "scoreScope": "90分钟",
+      "directionPick": "比利时胜",
+      "advancePick": "比利时",
+      "confidence": "中",
+      "keyFactors": [
+        "比利时刚大胜",
+        "塞内加尔身体强",
+        "德布劳内调度",
+        "防守专注关键"
+      ],
+      "analysis": "塞内加尔对抗会让比赛很难踢，比利时若能让德布劳内拿到舒服空间，晋级面略高。",
+      "playersToWatch": [
+        {
+          "team": "比利时",
+          "player": "德布劳内",
+          "reason": "节奏调度和定位球关键"
+        },
+        {
+          "team": "塞内加尔",
+          "player": "马内",
+          "reason": "大赛经验和反击威胁"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-07-01",
+      "timeET": "20:00",
+      "timeAsiaShanghai": "2026-07-02 08:00",
+      "venue": "San Francisco Bay Stadium",
+      "teamA": {
+        "name": "美国",
+        "winProb": 56
+      },
+      "draw": 25,
+      "teamB": {
+        "name": "波黑",
+        "winProb": 19
+      },
+      "predictedScore": "2-1",
+      "scoreScope": "90分钟",
+      "directionPick": "美国胜",
+      "advancePick": "美国",
+      "confidence": "中",
+      "keyFactors": [
+        "东道主环境",
+        "普利西奇回归",
+        "波黑进攻不差",
+        "美国防线需稳"
+      ],
+      "analysis": "美国有主场和普利西奇回归加成，但轮换战暴露防线专注问题；波黑不会轻易被压垮。",
+      "playersToWatch": [
+        {
+          "team": "美国",
+          "player": "普利西奇",
+          "reason": "回归后提升边路爆点"
+        },
+        {
+          "team": "波黑",
+          "player": "哲科",
+          "reason": "经验和支点作用仍关键"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-07-02",
+      "timeET": "15:00",
+      "timeAsiaShanghai": "2026-07-03 03:00",
+      "venue": "Los Angeles Stadium",
+      "teamA": {
+        "name": "西班牙",
+        "winProb": 64
+      },
+      "draw": 23,
+      "teamB": {
+        "name": "奥地利",
+        "winProb": 13
+      },
+      "predictedScore": "2-0",
+      "scoreScope": "90分钟",
+      "directionPick": "西班牙胜",
+      "advancePick": "西班牙",
+      "confidence": "高",
+      "keyFactors": [
+        "西班牙零失球",
+        "奥地利逼抢成熟",
+        "传控抗压强",
+        "奥地利失球偏多"
+      ],
+      "analysis": "奥地利高压会制造麻烦，但西班牙控球抗压和防守稳定性更突出，90 分钟解决战斗的可能更高。",
+      "playersToWatch": [
+        {
+          "team": "西班牙",
+          "player": "亚马尔",
+          "reason": "边路一对一改变防线"
+        },
+        {
+          "team": "奥地利",
+          "player": "萨比策",
+          "reason": "压迫和远射都重要"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-07-02",
+      "timeET": "19:00",
+      "timeAsiaShanghai": "2026-07-03 07:00",
+      "venue": "Toronto Stadium",
+      "teamA": {
+        "name": "葡萄牙",
+        "winProb": 37
+      },
+      "draw": 36,
+      "teamB": {
+        "name": "克罗地亚",
+        "winProb": 27
+      },
+      "predictedScore": "1-1",
+      "scoreScope": "90分钟",
+      "directionPick": "90分钟平，葡萄牙晋级",
+      "advancePick": "葡萄牙",
+      "confidence": "低",
+      "keyFactors": [
+        "中场质量接近",
+        "克罗地亚老辣",
+        "葡萄牙防守稳",
+        "可能进入加时"
+      ],
+      "analysis": "两队节奏都可能偏谨慎，90 分钟平局概率很高；若进入加时，葡萄牙阵容厚度略占优。",
+      "playersToWatch": [
+        {
+          "team": "葡萄牙",
+          "player": "布鲁诺·费尔南德斯",
+          "reason": "关键传球和远射很重要"
+        },
+        {
+          "team": "克罗地亚",
+          "player": "莫德里奇",
+          "reason": "控节奏能力仍是核心"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-07-02",
+      "timeET": "23:00",
+      "timeAsiaShanghai": "2026-07-03 11:00",
+      "venue": "BC Place Vancouver",
+      "teamA": {
+        "name": "瑞士",
+        "winProb": 51
+      },
+      "draw": 27,
+      "teamB": {
+        "name": "阿尔及利亚",
+        "winProb": 22
+      },
+      "predictedScore": "2-1",
+      "scoreScope": "90分钟",
+      "directionPick": "瑞士胜",
+      "advancePick": "瑞士",
+      "confidence": "中",
+      "keyFactors": [
+        "瑞士整体稳定",
+        "阿尔及利亚能进球",
+        "防守质量差距",
+        "场地相对熟悉"
+      ],
+      "analysis": "阿尔及利亚进攻有活力，但失球偏多；瑞士整体纪律性更好，适合在淘汰赛里磨出优势。",
+      "playersToWatch": [
+        {
+          "team": "瑞士",
+          "player": "扎卡",
+          "reason": "控场和长传调度关键"
+        },
+        {
+          "team": "阿尔及利亚",
+          "player": "马赫雷斯",
+          "reason": "定位球和右路创造核心"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-07-03",
+      "timeET": "14:00",
+      "timeAsiaShanghai": "2026-07-04 02:00",
+      "venue": "Dallas Stadium",
+      "teamA": {
+        "name": "澳大利亚",
+        "winProb": 29
+      },
+      "draw": 32,
+      "teamB": {
+        "name": "埃及",
+        "winProb": 39
+      },
+      "predictedScore": "0-1",
+      "scoreScope": "90分钟",
+      "directionPick": "埃及胜",
+      "advancePick": "埃及",
+      "confidence": "低",
+      "keyFactors": [
+        "澳洲低比分",
+        "埃及小组不败",
+        "萨拉赫决定性",
+        "平局风险偏高"
+      ],
+      "analysis": "澳大利亚会把比赛拖慢，埃及更有个人决定力；这是低比分、高拉扯的一场。",
+      "playersToWatch": [
+        {
+          "team": "澳大利亚",
+          "player": "莱基",
+          "reason": "边路推进和经验重要"
+        },
+        {
+          "team": "埃及",
+          "player": "萨拉赫",
+          "reason": "一脚处理决定上限"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-07-03",
+      "timeET": "18:00",
+      "timeAsiaShanghai": "2026-07-04 06:00",
+      "venue": "Miami Stadium",
+      "teamA": {
+        "name": "阿根廷",
+        "winProb": 68
+      },
+      "draw": 21,
+      "teamB": {
+        "name": "佛得角",
+        "winProb": 11
+      },
+      "predictedScore": "2-0",
+      "scoreScope": "90分钟",
+      "directionPick": "阿根廷胜",
+      "advancePick": "阿根廷",
+      "confidence": "高",
+      "keyFactors": [
+        "阿根廷三连胜",
+        "佛得角三连平",
+        "梅西体能管理",
+        "淘汰赛经验差"
+      ],
+      "analysis": "佛得角韧性值得尊重，但阿根廷攻防结构、经验和关键球能力明显领先，方向比较清晰。",
+      "playersToWatch": [
+        {
+          "team": "阿根廷",
+          "player": "梅西",
+          "reason": "节奏掌控和最后一传关键"
+        },
+        {
+          "team": "佛得角",
+          "player": "瑞安·门德斯",
+          "reason": "反击里最需要把握机会"
+        }
+      ]
+    },
+    {
+      "dateET": "2026-07-03",
+      "timeET": "21:30",
+      "timeAsiaShanghai": "2026-07-04 09:30",
+      "venue": "Kansas City Stadium",
+      "teamA": {
+        "name": "哥伦比亚",
+        "winProb": 53
+      },
+      "draw": 28,
+      "teamB": {
+        "name": "加纳",
+        "winProb": 19
+      },
+      "predictedScore": "1-0",
+      "scoreScope": "90分钟",
+      "directionPick": "哥伦比亚胜",
+      "advancePick": "哥伦比亚",
+      "confidence": "中",
+      "keyFactors": [
+        "哥伦比亚防守稳",
+        "加纳反击有速度",
+        "迪亚斯一对一",
+        "比分或偏小"
+      ],
+      "analysis": "哥伦比亚小组赛防守质量更稳，加纳有速度但终结稳定性一般；更像一场细节球。",
+      "playersToWatch": [
+        {
+          "team": "哥伦比亚",
+          "player": "路易斯·迪亚斯",
+          "reason": "边路突破最有杀伤"
+        },
+        {
+          "team": "加纳",
+          "player": "库杜斯",
+          "reason": "反击推进和个人摆脱关键"
+        }
+      ]
+    }
+  ],
+  "sourceUrls": [
+    "https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32",
+    "https://www.sbnation.com/soccer/1117905/world-cup-standings-updated-full-list-of-teams",
+    "https://www.sbnation.com/fifa-world-cup/1119051/world-cup-2026-knockout-bracket-who-qualified",
+    "https://www.sbnation.com/fifa-world-cup/1120471/usmnt-ends-world-cup-group-stage-on-sour-note-despite-pulisic-return"
+  ]
+}

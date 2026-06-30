@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2026 世界杯预测看板</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">World Cup 2026 Prediction Board</p>
+          <h1>2026 世界杯预测看板</h1>
+        </div>
+        <div class="status-strip" aria-label="发布状态">
+          <span class="status-dot"></span>
+          <span id="globalStatus">1/16 决赛已发布</span>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="stage-rail" aria-label="阶段导航">
+          <div class="stage-rail-head">
+            <span>阶段</span>
+            <strong id="publishedCount">1/6</strong>
+          </div>
+          <nav id="stageTabs" class="stage-tabs"></nav>
+        </aside>
+
+        <section class="content-panel">
+          <div class="tool-row">
+            <label class="search-box">
+              <span>搜索</span>
+              <input id="teamSearch" type="search" placeholder="球队 / 球员 / 场地" autocomplete="off" />
+            </label>
+            <div class="segmented" aria-label="信心筛选">
+              <button class="segment is-active" data-filter="全部" type="button">全部</button>
+              <button class="segment" data-filter="高" type="button">高</button>
+              <button class="segment" data-filter="中" type="button">中</button>
+              <button class="segment" data-filter="低" type="button">低</button>
+            </div>
+          </div>
+
+          <section id="stageSummary" class="stage-summary"></section>
+          <section id="matchBoard" class="match-board" aria-live="polite"></section>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
